@@ -80,8 +80,9 @@ public class FormatNames {
 			}
 			sb.append(" ");
 		}
-		System.out.println(sb.toString().trim());
-		
+		// output to console
+		// System.out.println(sb.toString().trim());
+				
 		// Setting up a new PrintWriter to write the output file.
 		PrintWriter printWriter = new PrintWriter (outputFile);
 		printWriter.print(sb);
